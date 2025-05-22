@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../files/blog.png'
+import image from '../assets/files/blog.png'
 import SkillCard from '../components/SkillCard'
 import { FaReact, FaHtml5, FaNode, FaGithub } from 'react-icons/fa6'
 import {FaExternalLinkAlt} from 'react-icons/fa'
