@@ -19,7 +19,7 @@ const ProjectsScreen = () => {
         />
         <ProjectCard 
           title={'Mock Blog Website'}
-          description={'A Fullstack MERN blogging site with full CRUD functionality through a custom API'}
+          description={'A Fullstack MERN blogging site with full CRUD functionality, custom API and React frontend'}
           image={'src/files/blog.png'}
           link={'/projects/blog'}
         />
