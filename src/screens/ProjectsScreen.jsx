@@ -16,13 +16,13 @@ const ProjectsScreen = () => {
         <ProjectCard 
           title={'Portfolio Website'}
           description={'A simple React site to host my details, CV and project links '}
-          image={'src/assets/files/portfolio.png'}
+          image={portfolioImage}
           link={'/projects/portfolio'}
         />
         <ProjectCard 
           title={'Mock Blog Website'}
           description={'A Fullstack MERN blogging site with full CRUD functionality, custom API and React frontend'}
-          image={portfolioImage}
+          image={blogImage}
           link={blogImage}
         />
       </div>
