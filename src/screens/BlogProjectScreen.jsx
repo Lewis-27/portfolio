@@ -70,7 +70,7 @@ const BlogProjectScreen = () => {
       <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full text-2xl">
         <h1 className='font-semibold text-2xl'>Website Links</h1>
         <a className="flex items-center gap-2 pl-4 hover:text-blue-600 transition duration-300" href="https://blog.lewis-miller.dev/" target='_blank'>
-          <p>Website</p>
+          <p>blog.lewis-miller.dev</p>
           <FaExternalLinkAlt className='text-xl' />
         </a>
         <a className="flex items-center gap-2 pl-4 hover:text-blue-600 transition duration-300" href="https://github.com/Lewis-27/blog" target='_blank'>
