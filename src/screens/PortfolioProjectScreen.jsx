@@ -1,11 +1,9 @@
 import React from 'react'
 import image from '../files/portfolio.png'
 import SkillCard from '../components/SkillCard'
-import { FaReact, FaHtml5, FaNode, FaGithub } from 'react-icons/fa6'
+import { FaReact, FaHtml5, FaGithub } from 'react-icons/fa6'
 import {FaExternalLinkAlt} from 'react-icons/fa'
-import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiMongoose, SiExpress, SiRedux } from "react-icons/si";
-import { BsFiletypePdf } from "react-icons/bs";
+import {RiTailwindCssFill } from "react-icons/ri";
 
 const PortfolioProjectScreen = () => {
   return (
@@ -13,7 +11,7 @@ const PortfolioProjectScreen = () => {
       <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full">
         <h1 className='font-semibold'>Portfolio Website Project</h1>
         <p className="text-2xl text-gray-500">A simple React site to host my details, CV and project links</p>
-        <a className="outline outline-gray-400 rounded-xl overflow-clip cursor-pointer" href='/' target='_blank'>
+        <a className="outline outline-gray-400 rounded-xl overflow-clip cursor-pointer" href='https://lewis-miller.dev/' target='_blank'>
         <img src={image} alt=""/>
         </a>
       </div>
@@ -38,7 +36,7 @@ const PortfolioProjectScreen = () => {
 
           <p>The components themselves are structured using HTML through the JSX langauge and then styles with CSS through the TailwindCSS library. Each page layout is designed to be reactive and so will display correctly on any screen size</p>
 
-          <p>The various pages are then linked together using the React Router package</p>
+          <p>The various pages are then linked together using the React Router package with a header for navigation.</p>
 
           <h3 className='font-semibold text-xl'>Deployment</h3>
           <p>Once completed the vite project is built into a static folder which is then hosted using GitHub pages and asigned to my website domain.</p>
