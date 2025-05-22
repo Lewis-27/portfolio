@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
+import portfolioImage from '../assets/files/portfolio.png'
+import blogImage from '../assets/files/blog.png'
 
 const ProjectsScreen = () => {
   return (
@@ -20,8 +22,8 @@ const ProjectsScreen = () => {
         <ProjectCard 
           title={'Mock Blog Website'}
           description={'A Fullstack MERN blogging site with full CRUD functionality, custom API and React frontend'}
-          image={'src/assets/files/blog.png'}
-          link={'/projects/blog'}
+          image={portfolioImage}
+          link={blogImage}
         />
       </div>
     </div>
