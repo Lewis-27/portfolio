@@ -13,7 +13,7 @@ import PortfolioProjectScreen from './screens/PortfolioProjectScreen.jsx';
 const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={ <App /> }>
-        <Route index path='/' element={ <WelcomeScreen /> }/> 
+        <Route index path='/portfolio' element={ <WelcomeScreen /> }/> 
         <Route path='/about-me' element={ <AboutMeScreen /> }/>
         <Route path='/projects' element={ <ProjectsScreen /> }/>
         <Route path='/projects/portfolio' element={ <PortfolioProjectScreen /> }/>
