@@ -5,7 +5,7 @@ import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb, SiMongoose, SiExpress, SiRedux } from "react-icons/si";
 import { BsFiletypePdf } from "react-icons/bs";
 import { Link } from 'react-router-dom';
-import CV from '../files/LewisMillerCV.pdf'
+import CV from 'src/assets/files/LewisMillerCV.pdf'
 
 const AboutMeScreen = () => {
   return (
