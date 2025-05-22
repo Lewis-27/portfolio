@@ -12,13 +12,13 @@ import PortfolioProjectScreen from './screens/PortfolioProjectScreen.jsx';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={ <App /> }>
-        <Route index path='/' element={ <WelcomeScreen /> }/> 
-        <Route path='/about-me' element={ <AboutMeScreen /> }/>
-        <Route path='/projects' element={ <ProjectsScreen /> }/>
-        <Route path='/projects/portfolio' element={ <PortfolioProjectScreen /> }/>
-        <Route path='/projects/blog' element={ <BlogProjectScreen /> }/>
-        <Route path='/contact' element={ <ContactScreen /> }/>
+      <Route path='/portfolio/' element={ <App /> }>
+        <Route index path='/portfolio/' element={ <WelcomeScreen /> }/> 
+        <Route path='/portfolio/about-me' element={ <AboutMeScreen /> }/>
+        <Route path='/portfolio/projects' element={ <ProjectsScreen /> }/>
+        <Route path='/portfolio/projects/portfolio' element={ <PortfolioProjectScreen /> }/>
+        <Route path='/portfolio/projects/blog' element={ <BlogProjectScreen /> }/>
+        <Route path='/portfolio/contact' element={ <ContactScreen /> }/>
       </Route>
       )
   );
