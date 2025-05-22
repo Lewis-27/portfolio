@@ -23,7 +23,7 @@ const ProjectsScreen = () => {
           title={'Mock Blog Website'}
           description={'A Fullstack MERN blogging site with full CRUD functionality, custom API and React frontend'}
           image={blogImage}
-          link={blogImage}
+          link={'/projects/blog'}
         />
       </div>
     </div>
