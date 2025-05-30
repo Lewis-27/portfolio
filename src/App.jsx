@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Header showHeader={showHeader} setShowHeader={setShowHeader}/>
-      <div className={`${showHeader ? 'hidden' : 'absolute'} top-0 h-screen w-screen bg-gray-100 opacity-75 z-1` }>
+      <div className={`${showHeader ? 'absolute md:hidden' : 'hidden'} top-0 h-screen w-screen bg-gray-100 opacity-75 z-1` }>
 
       </div>
       <Outlet />      
