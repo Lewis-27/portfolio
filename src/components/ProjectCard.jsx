@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const ProjectCard = ({title, description, image, link}) => {
   return (
-    <div className='w-1/3 h-130 outline outline-gray-300 rounded-xl shadow-lg flex flex-col items-center justify-center gap-4 py-10 px-4'>
+    <div className='w-100 md:max-w-100 lg:w-120 h-130 outline outline-gray-300 rounded-xl shadow-lg flex flex-col items-center justify-center gap-4 py-10 px-4'>
       <h1 className=''>{title}</h1>
       <p className='text-xl text-center'>{description}</p>
       <div className="grow flex items-center justify-center">

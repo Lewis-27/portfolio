@@ -10,15 +10,15 @@ import CV from '../assets/files/LewisMillerCV.pdf'
 const AboutMeScreen = () => {
   return (
     <div className='flex flex-col items-center justify-center py-20 w-full text-4xl gap-16'>
-      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>About me</h1>
         <p className='text-2xl'>I am a fullstack developer currently seeking employment. I work using the MERN stack and this site serves as my portfolio.</p>
         <p className="text-2xl">Below you can find out more information about me as such as my skills and education.</p>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-160 w-full">
+      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-160 md:w-full">
         <h1 className='font-semibold'>Skills</h1>
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
           <SkillCard icon={<RiJavascriptFill/>} skill={'JavaScript'}/>
           <SkillCard icon={<FaHtml5/>} skill={'HTML'}/>
           <SkillCard icon={<FaCss3/>} skill={'CSS'}/>
@@ -34,7 +34,7 @@ const AboutMeScreen = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>Education</h1>
         <div className="flex flex-col gap-1 text-xl w-full">
           <div className="flex gap-1 justify-between items-center">
@@ -52,7 +52,7 @@ const AboutMeScreen = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>Experience</h1>
         <div className="flex flex-col gap-1 text-xl w-full">
           <div className="flex gap-1 justify-between items-center">
@@ -66,7 +66,7 @@ const AboutMeScreen = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>CV</h1>
         <a 
           className="w-100 rounded-xl outline outline-gray-200 shadow-lg h-20 flex items-center px-8 gap-4 cursor-pointer hover:bg-black hover:text-white transition duration-300" 

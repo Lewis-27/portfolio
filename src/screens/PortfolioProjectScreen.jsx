@@ -7,8 +7,8 @@ import {RiTailwindCssFill } from "react-icons/ri";
 
 const PortfolioProjectScreen = () => {
   return (
-    <div className='flex flex-col items-center justify-center py-20 w-full text-4xl gap-8 mx-4'>
-      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full">
+    <div className='flex flex-col items-center justify-center py-20 w-full text-4xl gap-8'>
+      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>Portfolio Website Project</h1>
         <p className="text-2xl text-gray-500">A simple React site to host my details, CV and project links</p>
         <a className="outline outline-gray-400 rounded-xl overflow-clip cursor-pointer" href='https://lewis-miller.dev/' target='_blank'>
@@ -16,7 +16,7 @@ const PortfolioProjectScreen = () => {
         </a>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold text-2xl'>Technologies used</h1>
           <div className="flex flex-wrap items-center justify-center gap-4 w-full">
             <SkillCard icon={<FaHtml5/>} skill={'HTML'}/>
@@ -26,7 +26,7 @@ const PortfolioProjectScreen = () => {
           </div>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full">
+      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold text-2xl'>Full Description</h1>
         <div className="text-lg flex flex-col gap-2">
           <p>This project is a way to both demonstrate my frontend skills in react as well as provide a platoform to host all of my portfolio information</p>
@@ -49,7 +49,7 @@ const PortfolioProjectScreen = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full text-2xl">
+      <div className="flex flex-col items-start justify-center gap-4 px-4 md:px-0 md:max-w-180 w-full text-2xl">
         <h1 className='font-semibold text-2xl'>Website Links</h1>
         <a className="flex items-center gap-2 pl-4 hover:text-blue-600 transition duration-300" href="https://lewis-miller.dev/" target='_blank'>
           <p>lewis-miller.dev</p>

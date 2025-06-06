@@ -7,8 +7,8 @@ const ContactScreen = () => {
   const [email, setEmail] = useState('');
 
   return (
-    <div className='flex flex-col items-center justify-center h-180 w-full text-4xl gap-8 mx-4'>
-      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 w-full text-2xl">
+    <div className='flex flex-col items-center justify-center h-180 w-full text-4xl gap-8'>
+      <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 md:w-full text-2xl">
         <h1 className='font-semibold'>Contact</h1>
         <p className="text-2xl text-gray-500 font-light">Below are a few ways to contact me or view my information. Feel free to send me a message if you have any questions about me or my projects.</p>
         <div className="font-semibold text-xl flex gap-1">
