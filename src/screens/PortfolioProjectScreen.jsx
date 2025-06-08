@@ -29,17 +29,17 @@ const PortfolioProjectScreen = () => {
       <div className="flex flex-col items-start justify-center gap-4  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold text-2xl'>Full Description</h1>
         <div className="text-lg flex flex-col gap-2">
-          <p>This project is a way to both demonstrate my frontend skills in react as well as provide a platoform to host all of my portfolio information</p>
+          <p>This project is a way to both demonstrate my frontend skills in react as well as provide a platform to host all of my portfolio information</p>
 
           <h1 className='font-semibold text-2xl'>How it was made</h1>
           <p>This project was built using Node and Vite to create a React app made up of a series of components. Each screen of the site is a React component which is itself made up of React components for each section</p>
 
-          <p>The components themselves are structured using HTML through the JSX langauge and then styles with CSS through the TailwindCSS library. Each page layout is designed to be reactive and so will display correctly on any screen size</p>
+          <p>The components themselves are structured using HTML through the JSX language and then styles with CSS through the TailwindCSS library. Each page layout is designed to be reactive and so will display correctly on any screen size</p>
 
           <p>The various pages are then linked together using the React Router package with a header for navigation.</p>
 
           <h3 className='font-semibold text-xl'>Deployment</h3>
-          <p>Once completed the vite project is built into a static folder which is then hosted using GitHub pages and asigned to my website domain.</p>
+          <p>Once completed the vite project is hosted on netlify wher is is continuously deployed and assigned to my website domain as I make changes.</p>
 
           <h3 className='font-semibold text-xl'>Management</h3>
           <p>Through the project I used Git as a version control system to manage my files and allow me to safely make changes and add features. This then allowed me to place the project onto GitHub to be viewable. Additionally, this allowed the project to continuously deploy changes upon pushing to this repository.</p>
