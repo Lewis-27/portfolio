@@ -9,6 +9,7 @@ import ProjectsScreen from './screens/ProjectsScreen.jsx';
 import ContactScreen from './screens/ContactScreen.jsx';
 import BlogProjectScreen from './screens/BlogProjectScreen.jsx';
 import PortfolioProjectScreen from './screens/PortfolioProjectScreen.jsx';
+import WorkoutTrackerProjectScreen from './screens/WorkoutTrackerProjectScreen.jsx'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
         <Route path='/projects/portfolio' element={ <PortfolioProjectScreen /> }/>
         <Route path='/projects/blog' element={ <BlogProjectScreen /> }/>
         <Route path='/contact' element={ <ContactScreen /> }/>
+        <Route path='/projects/workouts' element={<WorkoutTrackerProjectScreen />}/>
       </Route>
       )
   );

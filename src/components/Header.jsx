@@ -19,11 +19,11 @@ const Header = ({showHeader, setShowHeader}) => {
         <FaBars className='text-3xl relative top-2 left-2 cursor-pointer z-50' onClick={() => {setShowHeader(!showHeader)}}/>
         <div className={`flex flex-col h-screen w-32 items-start z-50  ${showHeader ? '-translate-x-8' : '-translate-x-40' } bg-white shadow-lg transition`}>
           <FaChevronLeft className='cursor-pointer h-8 mx-4 mt-2' onClick={() => {setShowHeader(!showHeader)}}/>
-          <div className="flex flex-col grow items-center justify-evenly w-full ">
-            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light'} to={'/'} onClick={() => {setShowHeader(false)}}>Home</NavLink>
-            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light'} to={'/about-me'} onClick={() => {setShowHeader(false)}}>About Me</NavLink>
-            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light'} to={'/projects'} onClick={() => {setShowHeader(false)}}>Projects</NavLink>
-            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light'} to={'/contact'} onClick={() => {setShowHeader(false)}}>Contact</NavLink>            
+          <div className="flex flex-col grow items-center justify-start gap-12 mt-16 w-full ">
+            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light hover:font-semibold transition duration-300'} to={'/'} onClick={() => {setShowHeader(false)}}>Home</NavLink>
+            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light hover:font-semibold transition duration-300'} to={'/about-me'} onClick={() => {setShowHeader(false)}}>About Me</NavLink>
+            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light hover:font-semibold transition duration-300'} to={'/projects'} onClick={() => {setShowHeader(false)}}>Projects</NavLink>
+            <NavLink className={({isActive}) => isActive ? 'font-bold' : 'font-light hover:font-semibold transition duration-300'} to={'/contact'} onClick={() => {setShowHeader(false)}}>Contact</NavLink>            
           </div>
 
         </div>

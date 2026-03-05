@@ -2,7 +2,8 @@ import React from 'react'
 import SkillCard from '../components/SkillCard'
 import { FaReact, FaHtml5, FaCss3, FaNode, FaGithub, FaPython } from 'react-icons/fa6'
 import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiMongoose, SiExpress, SiRedux } from "react-icons/si";
+import { SiMongodb, SiMongoose, SiExpress, SiRedux, SiReactquery, SiAxios } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 import { BsFiletypePdf } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import CV from '../assets/files/LewisMillerCV.pdf'
@@ -12,8 +13,11 @@ const AboutMeScreen = () => {
     <div className='flex flex-col items-center justify-center py-20 w-full text-4xl gap-16'>
       <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>About me</h1>
-        <p className='text-2xl'>I am a fullstack developer currently seeking employment. I work using the MERN stack and this site serves as my portfolio.</p>
-        <p className="text-2xl">Below you can find out more information about me as such as my skills and education.</p>
+        <p className='text-2xl font-light'>I am a Fullstack web developer who is passionate about delivering modern, easy to use and effective software using a range of technologies.</p>
+        <p className='text-2xl font-light'>I am currently looking to work on projects that will allow me to contribute to genuinely useful software for real users while building my skills as a developer.</p>
+        <p className="text-2xl font-light">Below you can find out more information about me as such as my skills and education.</p>
+        <p className="text-2xl font-light">Click <a className='underline text-gray-500 hover:text-gray-300 transition duration-300' href='/projects'>here</a> to see some of the projects I have worked on.</p>
+
       </div>
 
       <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-160 md:w-full">
@@ -24,10 +28,13 @@ const AboutMeScreen = () => {
           <SkillCard icon={<FaCss3/>} skill={'CSS'}/>
           <SkillCard icon={<RiTailwindCssFill/>} skill={'TailwindCSS'}/>
           <SkillCard icon={<FaReact/>} skill={'React'}/>
+          <SkillCard icon={<TbSql />} skill={'PostgreSQL'}/>
           <SkillCard icon={<SiMongodb/>} skill={'MongoDB'}/>
           <SkillCard icon={<SiMongoose/>} skill={'Mongoose'}/>
           <SkillCard icon={<SiExpress/>} skill={'Express'}/>
           <SkillCard icon={<FaNode/>} skill={'NodeJS'}/>
+          <SkillCard icon={<SiReactquery />} skill={'TanstackQuery'}/>
+          <SkillCard icon={<SiAxios />} skill={'Axios'}/>
           <SkillCard icon={<SiRedux/>} skill={'Redux/RTK'}/>
           <SkillCard icon={<FaGithub/>} skill={'Git/Github'}/>
           <SkillCard icon={<FaPython/>} skill={'Python'}/>

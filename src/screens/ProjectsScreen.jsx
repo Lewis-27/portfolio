@@ -2,22 +2,24 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 import portfolioImage from '../assets/files/portfolio.png'
 import blogImage from '../assets/files/blog.png'
+import workoutsImage from '../assets/files/WorkoutsScreen.png'
 
 const ProjectsScreen = () => {
   return (
     <div className='flex flex-col items-center justify-center py-20 w-full text-4xl gap-4'>
       <div className="flex flex-col items-start justify-center gap-2  mx-4 md:max-w-180 md:w-full">
         <h1 className='font-semibold'>Projects</h1>
-        <p className='text-2xl'>Below are some of the projects I have completed using the MERN stack.</p>
-        <p className="text-2xl">Clicking on each project will give you more details</p>
+        <p className='text-2xl font-light'>Below are some of the projects I have completed to practice and demonstrate my skills.</p>
+        <p className="text-2xl font-light">Clicking on each project will give you more details.</p>
       </div>
 
-      <div className="w-full m-16 flex flex-col md:flex-row gap-8 items-center justify-center px-4">
+      {/* <div className="w-full m-16 flex flex-col md:flex-row gap-8 items-center justify-center px-4">      */}
+      <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4 ">     
         <ProjectCard 
-          title={'Portfolio Website'}
-          description={'A simple React site to host my details, CV and project links '}
-          image={portfolioImage}
-          link={'/projects/portfolio'}
+          title={'Workout Tracker'}
+          description={'A Fullstack web app for tracking workout routines. Built in React using an Express backend with a postgreSQL database'}
+          image={workoutsImage}
+          link={'/projects/workouts'}
         />
         <ProjectCard 
           title={'Mock Blog Website'}
@@ -25,6 +27,13 @@ const ProjectsScreen = () => {
           image={blogImage}
           link={'/projects/blog'}
         />
+        <ProjectCard 
+          title={'Portfolio Website'}
+          description={'A simple React site to host my details, CV and project links '}
+          image={portfolioImage}
+          link={'/projects/portfolio'}
+        />
+
       </div>
     </div>
   )
