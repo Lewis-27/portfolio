@@ -14,7 +14,7 @@ const ProjectsScreen = () => {
       </div>
 
       {/* <div className="w-full m-16 flex flex-col md:flex-row gap-8 items-center justify-center px-4">      */}
-      <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4 ">     
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-20 py-8 ">     
         <ProjectCard 
           title={'Workout Tracker'}
           description={'A Fullstack web app for tracking workout routines. Built in React using an Express backend with a postgreSQL database'}
